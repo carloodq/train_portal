@@ -7,7 +7,7 @@ print("hey")
 from portalAR.models import componente, scena
 
 import pandas as pd
-df = pd.read_excel(r"G:\My Drive\Planex Progetto AR\urls.xlsx")
+df = pd.read_excel(r"urls.xlsx")
 
 scene = scena.objects.all()
 ceccato = scene.first()
